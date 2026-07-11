@@ -1,0 +1,108 @@
+{
+  "_instructions": "Organize your skills with vibrant colors.",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "Python",
+        "SQL",
+        "Bash",
+        "PowerShell",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "Spark",
+        "PySpark",
+        "Delta Lake",
+        "dbt",
+        "Apache Kafka",
+        "Hive",
+        "GCP Dataflow",
+        "Spark Structured Streaming",
+        "Dataform",
+        "Airflow"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "Terraform",
+        "Ansible",
+        "ARM Templates",
+        "Bicep",
+        "CloudFormation",
+        "Jenkins",
+        "Azure DevOps",
+        "AWS",
+        "EC2",
+        "Lambda",
+        "Glue",
+        "S3",
+        "Kinesis",
+        "IAM",
+        "EKS",
+        "Redshift",
+        "Azure",
+        "ADF",
+        "Synapse",
+        "Azure SQL",
+        "Entra ID",
+        "Key Vault",
+        "GCP",
+        "BigQuery",
+        "GKE",
+        "Cloud Storage",
+        "Microsoft Fabric",
+        "New Relic",
+        "AWS CloudWatch",
+        "Azure Monitor",
+        "ServiceNow",
+        "Snowflake",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Power BI",
+        "Tableau",
+        "Looker",
+        "AWS QuickSight",
+        "GitHub Actions",
+        "Git",
+        "GitLab",
+        "CodePipeline",
+        "Step Functions",
+        "EMR",
+        "Athena",
+        "Pub/Sub",
+        "Cloud Composer"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "Infrastructure as Code (IaC)",
+        "Cloud Platforms",
+        "Data Engineering",
+        "Monitoring and Incident Response",
+        "Security and Compliance",
+        "Dashboards and Visualization",
+        "CI/CD and DevOps",
+        "Data Modeling",
+        "Data Governance",
+        "Quality Validation",
+        "SLA Management"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "etl-validation-with-python-scripting",
+      "description": "Personal development project using industry best practices",
+      "longDescription": "Personal development project using industry best practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "https://github.com/Varma799/etl-validation-with-python-scripting",
+      "demo": "https://github.com/Varma799/etl-validation-with-python-scripting",
+      "links": {
+        "github": "https://github.com/Varma799/etl-validation-with-python-scripting",
+        "demo": "https://github.com/Varma799/etl-validation-with-python-scripting",
+        "live": "https://github.com/Varma799/etl-validation-with-python-scripting"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "local-data-lakehouse",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Software Development",
+      "technologies": [
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/local-data-lakehouse",
+      "demo": "https://github.com/Varma799/local-data-lakehouse",
+      "links": {
+        "github": "https://github.com/Varma799/local-data-lakehouse",
+        "demo": "https://github.com/Varma799/local-data-lakehouse",
+        "live": "https://github.com/Varma799/local-data-lakehouse"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "uber-data-engineering-mage-project",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/uber-data-engineering-mage-project",
+      "demo": "https://github.com/Varma799/uber-data-engineering-mage-project",
+      "links": {
+        "github": "https://github.com/Varma799/uber-data-engineering-mage-project",
+        "demo": "https://github.com/Varma799/uber-data-engineering-mage-project",
+        "live": "https://github.com/Varma799/uber-data-engineering-mage-project"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "weather-data-pipeline-great-expectations",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Backend Development",
+      "technologies": [
+        "HTML",
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/weather-data-pipeline-great-expectations",
+      "demo": "https://github.com/Varma799/weather-data-pipeline-great-expectations",
+      "links": {
+        "github": "https://github.com/Varma799/weather-data-pipeline-great-expectations",
+        "demo": "https://github.com/Varma799/weather-data-pipeline-great-expectations",
+        "live": "https://github.com/Varma799/weather-data-pipeline-great-expectations"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "youtube-trending-etl-aws",
+      "description": "Portfolio project showcasing development capabilities",
+      "longDescription": "Portfolio project showcasing development capabilities",
+      "category": "Backend Development",
+      "technologies": [
+        "HCL",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/youtube-trending-etl-aws",
+      "demo": "https://github.com/Varma799/youtube-trending-etl-aws",
+      "links": {
+        "github": "https://github.com/Varma799/youtube-trending-etl-aws",
+        "demo": "https://github.com/Varma799/youtube-trending-etl-aws",
+        "live": "https://github.com/Varma799/youtube-trending-etl-aws"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "nyc-taxi-data-lake-gcp",
+      "description": "Hands-on learning experience with modern frameworks",
+      "longDescription": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "HTML",
+        "Python",
+        "HCL",
+        "Shell"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/nyc-taxi-data-lake-gcp",
+      "demo": "https://github.com/Varma799/nyc-taxi-data-lake-gcp",
+      "links": {
+        "github": "https://github.com/Varma799/nyc-taxi-data-lake-gcp",
+        "demo": "https://github.com/Varma799/nyc-taxi-data-lake-gcp",
+        "live": "https://github.com/Varma799/nyc-taxi-data-lake-gcp"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "elt-pipeline-dbt-snowflake-airflow",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "HTML",
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow",
+      "demo": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow",
+      "links": {
+        "github": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow",
+        "demo": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow",
+        "live": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "goodreads_etl_pipeline",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/goodreads_etl_pipeline",
+      "demo": "https://github.com/Varma799/goodreads_etl_pipeline",
+      "links": {
+        "github": "https://github.com/Varma799/goodreads_etl_pipeline",
+        "demo": "https://github.com/Varma799/goodreads_etl_pipeline",
+        "live": "https://github.com/Varma799/goodreads_etl_pipeline"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "f1-ai-race-dashboard",
+      "description": "Interactive F1 race analytics dashboard built with Streamlit, FastF1, and Plotly",
+      "longDescription": "Interactive F1 race analytics dashboard built with Streamlit, FastF1, and Plotly",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/f1-ai-race-dashboard",
+      "demo": "https://github.com/Varma799/f1-ai-race-dashboard",
+      "links": {
+        "github": "https://github.com/Varma799/f1-ai-race-dashboard",
+        "demo": "https://github.com/Varma799/f1-ai-race-dashboard",
+        "live": "https://github.com/Varma799/f1-ai-race-dashboard"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "cloud-resource-forecasting-mlops",
+      "description": "Cloud resource forecasting and auto scaling recommendation system built with Python, XGBoost, FastAPI, and pytest.",
+      "longDescription": "Cloud resource forecasting and auto scaling recommendation system built with Python, XGBoost, FastAPI, and pytest.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/cloud-resource-forecasting-mlops",
+      "demo": "https://github.com/Varma799/cloud-resource-forecasting-mlops",
+      "links": {
+        "github": "https://github.com/Varma799/cloud-resource-forecasting-mlops",
+        "demo": "https://github.com/Varma799/cloud-resource-forecasting-mlops",
+        "live": "https://github.com/Varma799/cloud-resource-forecasting-mlops"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "linkedin-ai-post-generator",
+      "description": "AI LinkedIn Post Generator built with Python, LangChain, Groq LLM, and Streamlit. Generates structured LinkedIn posts using few shot prompting and LLM inference.",
+      "longDescription": "AI LinkedIn Post Generator built with Python, LangChain, Groq LLM, and Streamlit. Generates structured LinkedIn posts using few shot prompting and LLM inference.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/linkedin-ai-post-generator",
+      "demo": "https://github.com/Varma799/linkedin-ai-post-generator",
+      "links": {
+        "github": "https://github.com/Varma799/linkedin-ai-post-generator",
+        "demo": "https://github.com/Varma799/linkedin-ai-post-generator",
+        "live": "https://github.com/Varma799/linkedin-ai-post-generator"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "azure-real-time-data-engineering",
+      "description": "Real-time Azure data pipeline using Event Hubs, Databricks, and ADLS",
+      "longDescription": "Real-time Azure data pipeline using Event Hubs, Databricks, and ADLS",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/azure-real-time-data-engineering",
+      "demo": "https://github.com/Varma799/azure-real-time-data-engineering",
+      "links": {
+        "github": "https://github.com/Varma799/azure-real-time-data-engineering",
+        "demo": "https://github.com/Varma799/azure-real-time-data-engineering",
+        "live": "https://github.com/Varma799/azure-real-time-data-engineering"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "realtime-warehousing-with-snowflake",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/realtime-warehousing-with-snowflake",
+      "demo": "https://github.com/Varma799/realtime-warehousing-with-snowflake",
+      "links": {
+        "github": "https://github.com/Varma799/realtime-warehousing-with-snowflake",
+        "demo": "https://github.com/Varma799/realtime-warehousing-with-snowflake",
+        "live": "https://github.com/Varma799/realtime-warehousing-with-snowflake"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "ecommerce-lakehouse-medallion",
+      "description": "Portfolio project showcasing development capabilities",
+      "longDescription": "Portfolio project showcasing development capabilities",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/ecommerce-lakehouse-medallion",
+      "demo": "https://github.com/Varma799/ecommerce-lakehouse-medallion",
+      "links": {
+        "github": "https://github.com/Varma799/ecommerce-lakehouse-medallion",
+        "demo": "https://github.com/Varma799/ecommerce-lakehouse-medallion",
+        "live": "https://github.com/Varma799/ecommerce-lakehouse-medallion"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "longDescription": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/contribution-history",
+      "demo": "https://github.com/Varma799/contribution-history",
+      "links": {
+        "github": "https://github.com/Varma799/contribution-history",
+        "demo": "https://github.com/Varma799/contribution-history",
+        "live": "https://github.com/Varma799/contribution-history"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mlproject",
+      "description": "GitHub repository: mlproject",
+      "longDescription": "GitHub repository: mlproject",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/mlproject",
+      "demo": "https://github.com/Varma799/mlproject",
+      "links": {
+        "github": "https://github.com/Varma799/mlproject",
+        "demo": "https://github.com/Varma799/mlproject",
+        "live": "https://github.com/Varma799/mlproject"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Spotify_project",
+      "description": "GitHub repository: Spotify_project",
+      "longDescription": "GitHub repository: Spotify_project",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Varma799/Spotify_project",
+      "demo": "https://github.com/Varma799/Spotify_project",
+      "links": {
+        "github": "https://github.com/Varma799/Spotify_project",
+        "demo": "https://github.com/Varma799/Spotify_project",
+        "live": "https://github.com/Varma799/Spotify_project"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}

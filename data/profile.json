@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Umapathi Varma",
+    "title": "Senior Data Engineer",
+    "bio": "Data Engineer with 6+ years of experience designing ETL pipelines, lakehouse platforms, warehouses, and analytics solutions across Azure, AWS, and GCP. Experienced with Python, SQL, Spark, Databricks, Snowflake, Airflow, and cloud storage, delivering reliable batch, streaming, and orchestration capabilities for production workloads consistently at scale."
+  },
+  "contact": {
+    "email": "umapathivarma.26@gmail.com",
+    "phone": "+19453853090",
+    "githubUsername": "Varma799",
+    "linkedin": "www.linkedin.com/in/umapathiv"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Umapathi Varma - Portfolio",
+    "description": "Data Engineer with 6+ years of experience designing ETL pipelines, lakehouse platforms, warehouses, and analytics solutions across Azure, AWS, and GCP. Experienced with Python, SQL, Spark, Databricks, Snowflake, Airflow, and cloud storage, delivering reliable batch, streaming, and orchestration capabilities for production workloads consistently at scale."
+  }
+}

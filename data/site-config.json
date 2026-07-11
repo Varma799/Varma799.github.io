@@ -1,0 +1,26 @@
+{
+  "_instructions": "Site-wide configuration and meta tags.",
+  "title": "Umapathi Varma | Senior Data Engineer",
+  "description": "Umapathi Varma - Senior Data Engineer | Portfolio",
+  "keywords": "Senior Data Engineer, Portfolio, Umapathi Varma",
+  "author": "Umapathi Varma",
+  "siteName": "Umapathi Varma",
+  "siteTitle": "Umapathi Varma | Senior Data Engineer",
+  "meta": {
+    "title": "Umapathi Varma | Senior Data Engineer",
+    "description": "Umapathi Varma - Senior Data Engineer | Portfolio",
+    "author": "Umapathi Varma",
+    "keywords": "Senior Data Engineer, Portfolio, Umapathi Varma"
+  },
+  "branding": {
+    "name": "Umapathi Varma",
+    "tagline": "Senior Data Engineer",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

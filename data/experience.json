@@ -1,0 +1,45 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Sr. Data Engineer",
+      "company": "Capital One",
+      "period": "February 2025 – Present",
+      "location": "",
+      "description": "Designed Azure Data Factory pipelines that combined SQL, Python, and Azure OpenAI outputs, helping risk teams access cleaner financial data faster and securely consistently. Created Databricks workflows with PySpark and Delta Lake, shaping curated datasets that made GenAI search and analytics easier for operations teams during weekly reviews. Built Synapse models and SQL transformations for model-ready reporting, giving analysts dependable datasets for business intelligence, experimentation, and stakeholder discussions across Capital One securely. Improved Azure DevOps releases with Git, Terraform, monitoring, and validation, making GenAI-enabled data products easier to deploy, review, and support in production.",
+      "responsibilities": [
+        "Designed Azure Data Factory pipelines that combined SQL, Python, and Azure OpenAI outputs, helping risk teams access cleaner financial data faster and securely consistently",
+        "Created Databricks workflows with PySpark and Delta Lake, shaping curated datasets that made GenAI search and analytics easier for operations teams during weekly reviews",
+        "Built Synapse models and SQL transformations for model-ready reporting, giving analysts dependable datasets for business intelligence, experimentation, and stakeholder discussions across Capital One securely",
+        "Improved Azure DevOps releases with Git, Terraform, monitoring, and validation, making GenAI-enabled data products easier to deploy, review, and support in production"
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Humana",
+      "period": "August 2023 – December 2024",
+      "location": "",
+      "description": "Implemented AWS Glue jobs with Spark and Python, processing healthcare datasets into S3, Redshift, and Athena for secure analytics consumption across member operations workflows. Engineered Lambda orchestration through Step Functions and IAM, automating ingestion validation, monitoring, and exception handling while strengthening HIPAA-aligned reliability for production AWS environments securely. Optimized Redshift models and S3 partitioning with Parquet, accelerating regulated healthcare reporting access while improving trusted dataset availability for claims workflows and analytics teams. Streamlined Kinesis and EMR processing through Spark Structured Streaming, enabling timely clinical feeds for governance, analytics, and compliance functions across secure data platforms reliably.",
+      "responsibilities": [
+        "Implemented AWS Glue jobs with Spark and Python, processing healthcare datasets into S3, Redshift, and Athena for secure analytics consumption across member operations workflows",
+        "Engineered Lambda orchestration through Step Functions and IAM, automating ingestion validation, monitoring, and exception handling while strengthening HIPAA-aligned reliability for production AWS environments securely",
+        "Optimized Redshift models and S3 partitioning with Parquet, accelerating regulated healthcare reporting access while improving trusted dataset availability for claims workflows and analytics teams",
+        "Streamlined Kinesis and EMR processing through Spark Structured Streaming, enabling timely clinical feeds for governance, analytics, and compliance functions across secure data platforms reliably"
+      ]
+    },
+    {
+      "title": "Associate Data Engineer",
+      "company": "Mphasis",
+      "period": "May 2019 – December 2022",
+      "location": "",
+      "description": "Automated GCP pipelines through Dataflow, Pub/Sub, and Cloud Storage, delivering scalable analytics datasets that supported enterprise reporting and decision workflows across cloud programs reliably. Integrated BigQuery marts with SQL, dbt, and Dataform, improving governed transformations and reusable analytical models for consulting delivery across enterprise clients and analytics programs. Configured Cloud Composer DAGs with Airflow and GitLab CI, scheduling ELT workloads while improving observability, alerting, logging, and platform supportability across managed cloud environments. Validated Looker and Tableau datasets through quality checks, metadata, and lineage practices, increasing confidence in dashboards, executive metrics, and operational reporting for enterprise leaders.",
+      "responsibilities": [
+        "Automated GCP pipelines through Dataflow, Pub/Sub, and Cloud Storage, delivering scalable analytics datasets that supported enterprise reporting and decision workflows across cloud programs reliably",
+        "Integrated BigQuery marts with SQL, dbt, and Dataform, improving governed transformations and reusable analytical models for consulting delivery across enterprise clients and analytics programs",
+        "Configured Cloud Composer DAGs with Airflow and GitLab CI, scheduling ELT workloads while improving observability, alerting, logging, and platform supportability across managed cloud environments",
+        "Validated Looker and Tableau datasets through quality checks, metadata, and lineage practices, increasing confidence in dashboards, executive metrics, and operational reporting for enterprise leaders"
+      ]
+    }
+  ]
+}
