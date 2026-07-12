@@ -1,108 +1,76 @@
 {
-  "_instructions": "Organize your skills with vibrant colors.",
+  "_instructions": "Skills as a logo-driven tech-stack wall. Each item may have a 'logo' (file in assets/images/tech/); items without a logo render as labelled chips. 'competencies' render as a pill row.",
   "sectionTitle": "Skills & Technologies",
-  "categories": [
+  "subtitle": "The stack I design, build, and operate data platforms with.",
+  "stack": [
     {
-      "category": "Programming Languages",
-      "icon": "fas fa-code",
+      "category": "Languages & Scripting",
       "color": "#FF6B6B",
-      "skills": [
-        "Python",
-        "SQL",
-        "Bash",
-        "PowerShell",
-        "Shell Scripting"
+      "items": [
+        { "name": "Python", "logo": "python.svg" },
+        { "name": "SQL" },
+        { "name": "Bash", "logo": "gnubash.svg" },
+        { "name": "PowerShell" }
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "Processing & Orchestration",
       "color": "#4ECDC4",
-      "skills": [
-        "Spark",
-        "PySpark",
-        "Delta Lake",
-        "dbt",
-        "Apache Kafka",
-        "Hive",
-        "GCP Dataflow",
-        "Spark Structured Streaming",
-        "Dataform",
-        "Airflow"
+      "items": [
+        { "name": "Apache Spark", "logo": "apachespark.svg" },
+        { "name": "Apache Kafka", "logo": "apachekafka.svg" },
+        { "name": "Apache Airflow", "logo": "apacheairflow.svg" },
+        { "name": "Apache Hive", "logo": "apachehive.svg" },
+        { "name": "Parquet", "logo": "apacheparquet.svg" },
+        { "name": "dbt" },
+        { "name": "Delta Lake" },
+        { "name": "Dataform" }
       ]
     },
     {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
+      "category": "Cloud & Warehouses",
+      "color": "#B19CD9",
+      "items": [
+        { "name": "AWS", "logo": "amazonwebservices.svg" },
+        { "name": "Azure", "logo": "microsoftazure.svg" },
+        { "name": "Google Cloud", "logo": "googlecloud.svg" },
+        { "name": "Snowflake", "logo": "snowflake.svg" },
+        { "name": "Databricks", "logo": "databricks.svg" },
+        { "name": "PostgreSQL", "logo": "postgresql.svg" },
+        { "name": "MySQL", "logo": "mysql.svg" },
+        { "name": "MongoDB", "logo": "mongodb.svg" }
+      ]
+    },
+    {
+      "category": "DevOps, IaC & BI",
       "color": "#FFE66D",
-      "skills": [
-        "Terraform",
-        "Ansible",
-        "ARM Templates",
-        "Bicep",
-        "CloudFormation",
-        "Jenkins",
-        "Azure DevOps",
-        "AWS",
-        "EC2",
-        "Lambda",
-        "Glue",
-        "S3",
-        "Kinesis",
-        "IAM",
-        "EKS",
-        "Redshift",
-        "Azure",
-        "ADF",
-        "Synapse",
-        "Azure SQL",
-        "Entra ID",
-        "Key Vault",
-        "GCP",
-        "BigQuery",
-        "GKE",
-        "Cloud Storage",
-        "Microsoft Fabric",
-        "New Relic",
-        "AWS CloudWatch",
-        "Azure Monitor",
-        "ServiceNow",
-        "Snowflake",
-        "PostgreSQL",
-        "MongoDB",
-        "MySQL",
-        "Power BI",
-        "Tableau",
-        "Looker",
-        "AWS QuickSight",
-        "GitHub Actions",
-        "Git",
-        "GitLab",
-        "CodePipeline",
-        "Step Functions",
-        "EMR",
-        "Athena",
-        "Pub/Sub",
-        "Cloud Composer"
-      ]
-    },
-    {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
-      "color": "#A8DADC",
-      "skills": [
-        "Infrastructure as Code (IaC)",
-        "Cloud Platforms",
-        "Data Engineering",
-        "Monitoring and Incident Response",
-        "Security and Compliance",
-        "Dashboards and Visualization",
-        "CI/CD and DevOps",
-        "Data Modeling",
-        "Data Governance",
-        "Quality Validation",
-        "SLA Management"
+      "items": [
+        { "name": "Terraform", "logo": "terraform.svg" },
+        { "name": "Ansible", "logo": "ansible.svg" },
+        { "name": "Docker", "logo": "docker.svg" },
+        { "name": "Kubernetes", "logo": "kubernetes.svg" },
+        { "name": "Jenkins", "logo": "jenkins.svg" },
+        { "name": "Git", "logo": "git.svg" },
+        { "name": "GitLab", "logo": "gitlab.svg" },
+        { "name": "GitHub Actions", "logo": "githubactions.svg" },
+        { "name": "Power BI", "logo": "powerbi.svg" },
+        { "name": "Tableau", "logo": "tableau.svg" },
+        { "name": "Looker", "logo": "looker.svg" },
+        { "name": "Grafana", "logo": "grafana.svg" },
+        { "name": "New Relic", "logo": "newrelic.svg" },
+        { "name": "ServiceNow", "logo": "servicenow.svg" }
       ]
     }
+  ],
+  "competencies": [
+    "Infrastructure as Code (IaC)",
+    "Data Modeling",
+    "Data Governance",
+    "CI/CD & DevOps",
+    "Monitoring & Incident Response",
+    "Security & Compliance",
+    "Quality Validation",
+    "Dashboards & Visualization",
+    "SLA Management"
   ]
 }

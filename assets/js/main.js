@@ -218,6 +218,11 @@ async function loadExperience() {
                     </div>
                     <div class="timeline-content">
                         <div class="experience-header">
+                            ${exp.logo ? `
+                                <div class="company-logo">
+                                    <img src="${exp.logo}" alt="${exp.company} logo" loading="lazy" />
+                                </div>
+                            ` : ''}
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
                                 ${exp.company} ${exp.location ? `• ${exp.location}` : ''}
@@ -259,22 +264,51 @@ async function loadSkills() {
         // Set section title
         document.getElementById('skills-title').textContent = data.sectionTitle;
 
-        // Render skill categories
+        // Optional subtitle under the section title
+        const skillsTitleEl = document.getElementById('skills-title');
+        if (data.subtitle && skillsTitleEl && !document.getElementById('skills-subtitle')) {
+            const sub = document.createElement('p');
+            sub.id = 'skills-subtitle';
+            sub.className = 'section-subtitle';
+            sub.textContent = data.subtitle;
+            skillsTitleEl.insertAdjacentElement('afterend', sub);
+        }
+
+        // Render the tech-stack wall
         const skillsGrid = document.getElementById('skills-grid');
-        if (skillsGrid && data.categories) {
-            skillsGrid.innerHTML = data.categories.map(category => `
-                <div class="skill-category">
+        if (skillsGrid && data.stack) {
+            skillsGrid.innerHTML = data.stack.map(group => `
+                <div class="skill-category" style="--cat-color: ${group.color}">
                     <div class="skill-category-header">
-                        <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
-                            <i class="${category.icon}"></i>
-                        </div>
-                        <h3 class="skill-category-title">${category.category}</h3>
+                        <span class="skill-category-dot" style="background: ${group.color}"></span>
+                        <h3 class="skill-category-title">${group.category}</h3>
                     </div>
-                    <div class="skill-list">
-                        ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                    <div class="tech-wall">
+                        ${group.items.map(item => item.logo ? `
+                            <div class="tech-chip" title="${item.name}">
+                                <img class="tech-logo" src="assets/images/tech/${item.logo}" alt="${item.name}" loading="lazy" width="28" height="28" />
+                                <span class="tech-name">${item.name}</span>
+                            </div>
+                        ` : `
+                            <div class="tech-chip tech-chip--text" title="${item.name}">
+                                <span class="tech-name">${item.name}</span>
+                            </div>
+                        `).join('')}
                     </div>
                 </div>
             `).join('');
+
+            // Core competencies pill row
+            if (data.competencies && data.competencies.length) {
+                skillsGrid.insertAdjacentHTML('afterend', `
+                    <div class="competencies">
+                        <h4 class="competencies-title">Core competencies</h4>
+                        <div class="competencies-list">
+                            ${data.competencies.map(c => `<span class="competency-pill">${c}</span>`).join('')}
+                        </div>
+                    </div>
+                `);
+            }
         }
     } catch (error) {
         console.error('Error loading skills section:', error);
@@ -297,9 +331,16 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
-                    <div class="project-icon" style="background: ${project.color}">
-                        <i class="${project.icon}"></i>
-                    </div>
+                    ${project.image ? `
+                        <div class="project-image">
+                            <img src="${project.image}" alt="${project.title}" loading="lazy" />
+                            ${project.featured ? `<span class="project-badge">Featured</span>` : ''}
+                        </div>
+                    ` : `
+                        <div class="project-icon" style="background: ${project.color}">
+                            <i class="${project.icon}"></i>
+                        </div>
+                    `}
                     <div class="project-header">
                         <h3 class="project-title">${project.title}</h3>
                     </div>

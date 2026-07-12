@@ -13,7 +13,8 @@
         "Created Databricks workflows with PySpark and Delta Lake to build curated datasets for GenAI search and analytics used by operations teams",
         "Built Synapse models and SQL transformations for model-ready reporting, providing analysts with dependable datasets for business intelligence and experimentation",
         "Improved Azure DevOps releases with Git, Terraform, monitoring, and validation to make GenAI-enabled data products easier to deploy, review, and support in production"
-      ]
+      ],
+      "logo": "assets/images/logos/capital-one.svg"
     },
     {
       "title": "Data Engineer",
@@ -26,7 +27,8 @@
         "Engineered Lambda orchestration with Step Functions and IAM to automate ingestion validation, monitoring, and exception handling in HIPAA-aligned production environments",
         "Optimized Redshift models and S3 partitioning with Parquet to accelerate regulated healthcare reporting and improve dataset availability for claims and analytics teams",
         "Streamlined Kinesis and EMR processing with Spark Structured Streaming to deliver timely clinical feeds for governance, analytics, and compliance functions"
-      ]
+      ],
+      "logo": "assets/images/logos/humana.svg"
     },
     {
       "title": "Associate Data Engineer",
@@ -39,7 +41,8 @@
         "Integrated BigQuery marts with SQL, dbt, and Dataform to build governed transformations and reusable analytical models for consulting delivery",
         "Configured Cloud Composer DAGs with Airflow and GitLab CI to schedule ELT workloads and improve observability, alerting, and logging",
         "Validated Looker and Tableau datasets through quality checks, metadata, and lineage practices to increase confidence in dashboards and operational reporting"
-      ]
+      ],
+      "logo": "assets/images/logos/mphasis.svg"
     }
   ]
 }
