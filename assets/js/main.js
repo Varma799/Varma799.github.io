@@ -161,8 +161,17 @@ async function loadAbout() {
         // Set section title
         document.getElementById('about-title').textContent = data.sectionTitle;
 
-        // Render paragraphs
+        // Render profile photo
         const textContainer = document.getElementById('about-text');
+        const aboutContent = textContainer ? textContainer.parentElement : null;
+        if (aboutContent && data.image && !aboutContent.querySelector('.about-image')) {
+            const figure = document.createElement('div');
+            figure.className = 'about-image';
+            figure.innerHTML = `<img src="${data.image}" alt="Umapathi Varma" loading="lazy" />`;
+            aboutContent.insertBefore(figure, textContainer);
+        }
+
+        // Render paragraphs
         if (textContainer && data.paragraphs) {
             textContainer.innerHTML = data.paragraphs.map(paragraph => `
                 <p>${paragraph}</p>
