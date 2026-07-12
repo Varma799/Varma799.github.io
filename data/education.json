@@ -4,18 +4,18 @@
   "certificationsTitle": "Certifications",
   "education": [
     {
-      "degree": "Master's",
+      "degree": "M.S. in Computer Science",
       "school": "Florida Atlantic University",
       "institution": "Florida Atlantic University",
-      "period": "",
+      "period": "2023 – 2024",
       "details": "",
       "description": ""
     }
   ],
   "certifications": [
     {
-      "title": "AWS Associate Data Engineer",
-      "name": "AWS Associate Data Engineer",
+      "title": "AWS Certified Data Engineer – Associate",
+      "name": "AWS Certified Data Engineer – Associate",
       "issuer": "AWS",
       "date": "2023",
       "icon": "fas fa-certificate"

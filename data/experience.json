@@ -7,12 +7,12 @@
       "company": "Capital One",
       "period": "February 2025 – Present",
       "location": "",
-      "description": "Designed Azure Data Factory pipelines that combined SQL, Python, and Azure OpenAI outputs, helping risk teams access cleaner financial data faster and securely consistently. Created Databricks workflows with PySpark and Delta Lake, shaping curated datasets that made GenAI search and analytics easier for operations teams during weekly reviews. Built Synapse models and SQL transformations for model-ready reporting, giving analysts dependable datasets for business intelligence, experimentation, and stakeholder discussions across Capital One securely. Improved Azure DevOps releases with Git, Terraform, monitoring, and validation, making GenAI-enabled data products easier to deploy, review, and support in production.",
+      "description": "Build and operate Azure-based data platforms that turn raw financial data into curated, model-ready datasets for risk, operations, and analytics teams. Cover the full lifecycle from ingestion pipelines through GenAI-enabled data products and their production releases.",
       "responsibilities": [
-        "Designed Azure Data Factory pipelines that combined SQL, Python, and Azure OpenAI outputs, helping risk teams access cleaner financial data faster and securely consistently",
-        "Created Databricks workflows with PySpark and Delta Lake, shaping curated datasets that made GenAI search and analytics easier for operations teams during weekly reviews",
-        "Built Synapse models and SQL transformations for model-ready reporting, giving analysts dependable datasets for business intelligence, experimentation, and stakeholder discussions across Capital One securely",
-        "Improved Azure DevOps releases with Git, Terraform, monitoring, and validation, making GenAI-enabled data products easier to deploy, review, and support in production"
+        "Designed Azure Data Factory pipelines combining SQL, Python, and Azure OpenAI outputs to give risk teams cleaner financial data",
+        "Created Databricks workflows with PySpark and Delta Lake to build curated datasets for GenAI search and analytics used by operations teams",
+        "Built Synapse models and SQL transformations for model-ready reporting, providing analysts with dependable datasets for business intelligence and experimentation",
+        "Improved Azure DevOps releases with Git, Terraform, monitoring, and validation to make GenAI-enabled data products easier to deploy, review, and support in production"
       ]
     },
     {
@@ -20,12 +20,12 @@
       "company": "Humana",
       "period": "August 2023 – December 2024",
       "location": "",
-      "description": "Implemented AWS Glue jobs with Spark and Python, processing healthcare datasets into S3, Redshift, and Athena for secure analytics consumption across member operations workflows. Engineered Lambda orchestration through Step Functions and IAM, automating ingestion validation, monitoring, and exception handling while strengthening HIPAA-aligned reliability for production AWS environments securely. Optimized Redshift models and S3 partitioning with Parquet, accelerating regulated healthcare reporting access while improving trusted dataset availability for claims workflows and analytics teams. Streamlined Kinesis and EMR processing through Spark Structured Streaming, enabling timely clinical feeds for governance, analytics, and compliance functions across secure data platforms reliably.",
+      "description": "Engineered AWS data pipelines that ingested and processed healthcare datasets for analytics and regulated reporting. Focused on automated, HIPAA-aligned workflows spanning batch and streaming across claims, clinical, and member operations.",
       "responsibilities": [
-        "Implemented AWS Glue jobs with Spark and Python, processing healthcare datasets into S3, Redshift, and Athena for secure analytics consumption across member operations workflows",
-        "Engineered Lambda orchestration through Step Functions and IAM, automating ingestion validation, monitoring, and exception handling while strengthening HIPAA-aligned reliability for production AWS environments securely",
-        "Optimized Redshift models and S3 partitioning with Parquet, accelerating regulated healthcare reporting access while improving trusted dataset availability for claims workflows and analytics teams",
-        "Streamlined Kinesis and EMR processing through Spark Structured Streaming, enabling timely clinical feeds for governance, analytics, and compliance functions across secure data platforms reliably"
+        "Implemented AWS Glue jobs with Spark and Python to process healthcare datasets into S3, Redshift, and Athena for analytics consumption",
+        "Engineered Lambda orchestration with Step Functions and IAM to automate ingestion validation, monitoring, and exception handling in HIPAA-aligned production environments",
+        "Optimized Redshift models and S3 partitioning with Parquet to accelerate regulated healthcare reporting and improve dataset availability for claims and analytics teams",
+        "Streamlined Kinesis and EMR processing with Spark Structured Streaming to deliver timely clinical feeds for governance, analytics, and compliance functions"
       ]
     },
     {
@@ -33,12 +33,12 @@
       "company": "Mphasis",
       "period": "May 2019 – December 2022",
       "location": "",
-      "description": "Automated GCP pipelines through Dataflow, Pub/Sub, and Cloud Storage, delivering scalable analytics datasets that supported enterprise reporting and decision workflows across cloud programs reliably. Integrated BigQuery marts with SQL, dbt, and Dataform, improving governed transformations and reusable analytical models for consulting delivery across enterprise clients and analytics programs. Configured Cloud Composer DAGs with Airflow and GitLab CI, scheduling ELT workloads while improving observability, alerting, logging, and platform supportability across managed cloud environments. Validated Looker and Tableau datasets through quality checks, metadata, and lineage practices, increasing confidence in dashboards, executive metrics, and operational reporting for enterprise leaders.",
+      "description": "Delivered GCP data pipelines and analytics datasets for enterprise consulting clients. Handled ingestion, warehouse modeling, and orchestration through to governed dashboards and reporting.",
       "responsibilities": [
-        "Automated GCP pipelines through Dataflow, Pub/Sub, and Cloud Storage, delivering scalable analytics datasets that supported enterprise reporting and decision workflows across cloud programs reliably",
-        "Integrated BigQuery marts with SQL, dbt, and Dataform, improving governed transformations and reusable analytical models for consulting delivery across enterprise clients and analytics programs",
-        "Configured Cloud Composer DAGs with Airflow and GitLab CI, scheduling ELT workloads while improving observability, alerting, logging, and platform supportability across managed cloud environments",
-        "Validated Looker and Tableau datasets through quality checks, metadata, and lineage practices, increasing confidence in dashboards, executive metrics, and operational reporting for enterprise leaders"
+        "Automated GCP pipelines with Dataflow, Pub/Sub, and Cloud Storage to deliver scalable analytics datasets for enterprise reporting and decision workflows",
+        "Integrated BigQuery marts with SQL, dbt, and Dataform to build governed transformations and reusable analytical models for consulting delivery",
+        "Configured Cloud Composer DAGs with Airflow and GitLab CI to schedule ELT workloads and improve observability, alerting, and logging",
+        "Validated Looker and Tableau datasets through quality checks, metadata, and lineage practices to increase confidence in dashboards and operational reporting"
       ]
     }
   ]

@@ -10,14 +10,6 @@
       "href": "mailto:umapathivarma.26@gmail.com",
       "icon": "fas fa-envelope",
       "color": "#FF6B6B"
-    },
-    {
-      "type": "phone",
-      "label": "Phone",
-      "value": "+19453853090",
-      "href": "tel:19453853090",
-      "icon": "fas fa-phone",
-      "color": "#4ECDC4"
     }
   ],
   "form": {
@@ -66,7 +58,7 @@
   "socialMedia": [
     {
       "platform": "LinkedIn",
-      "url": "www.linkedin.com/in/umapathiv",
+      "url": "https://www.linkedin.com/in/umapathiv",
       "icon": "fab fa-linkedin",
       "color": "#0077B5"
     }

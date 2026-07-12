@@ -428,7 +428,6 @@ async function loadContact() {
         // Render contact form
         const contactForm = document.getElementById('contact-form');
         if (contactForm && data.form) {
-            contactForm.action = data.form.action;
             contactForm.method = data.form.method;
 
             contactForm.innerHTML = data.form.fields.map(field => `
@@ -463,41 +462,24 @@ async function loadContact() {
                 <div class="form-message"></div>
             `;
 
-            // Handle form submission
-            contactForm.addEventListener('submit', async (e) => {
+            // Handle form submission via mailto (static hosting, no backend)
+            contactForm.addEventListener('submit', (e) => {
                 e.preventDefault();
                 const formMessage = contactForm.querySelector('.form-message');
-                const submitButton = contactForm.querySelector('.form-submit');
 
-                try {
-                    submitButton.disabled = true;
-                    submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                const formData = new FormData(contactForm);
+                const name = formData.get('name') || '';
+                const email = formData.get('email') || '';
+                const subject = formData.get('subject') || '';
+                const message = formData.get('message') || '';
 
-                    const formData = new FormData(contactForm);
-                    const response = await fetch(contactForm.action, {
-                        method: contactForm.method,
-                        body: formData,
-                        headers: {
-                            'Accept': 'application/json'
-                        }
-                    });
+                const mailtoLink = `mailto:umapathivarma.26@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+                window.location.href = mailtoLink;
 
-                    if (response.ok) {
-                        formMessage.textContent = data.form.successMessage;
-                        formMessage.className = 'form-message success';
-                        formMessage.style.display = 'block';
-                        contactForm.reset();
-                    } else {
-                        throw new Error('Form submission failed');
-                    }
-                } catch (error) {
-                    formMessage.textContent = data.form.errorMessage;
-                    formMessage.className = 'form-message error';
-                    formMessage.style.display = 'block';
-                } finally {
-                    submitButton.disabled = false;
-                    submitButton.innerHTML = `<i class="${data.form.submitIcon}"></i> ${data.form.submitText}`;
-                }
+                formMessage.textContent = data.form.successMessage;
+                formMessage.className = 'form-message success';
+                formMessage.style.display = 'block';
+                contactForm.reset();
             });
         }
 

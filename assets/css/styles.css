@@ -1469,3 +1469,30 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==========================================================================
+   Reduced Motion (WCAG 2.3.3) — respect prefers-reduced-motion: reduce
+   Disables particles.js, animated gradient orbs, and all scroll animations.
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+
+    /* Disable the moving background layers */
+    #particles-js,
+    .gradient-orb,
+    .orb-1,
+    .orb-2,
+    .orb-3 {
+        display: none !important;
+    }
+
+    html {
+        scroll-behavior: auto !important;
+    }
+}

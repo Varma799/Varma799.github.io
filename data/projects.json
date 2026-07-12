@@ -3,17 +3,17 @@
   "sectionTitle": "Featured Work",
   "projects": [
     {
-      "title": "etl-validation-with-python-scripting",
-      "description": "Personal development project using industry best practices",
-      "longDescription": "Personal development project using industry best practices",
-      "category": "Backend Development",
+      "title": "ETL Validation with Python",
+      "description": "Python framework for validating ETL data quality with automated schema and integrity checks.",
+      "longDescription": "Python framework for validating ETL data quality with automated schema and integrity checks.",
+      "category": "Data Engineering",
       "technologies": [
         "Python"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF6B6B",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": true,
+      "featured": false,
       "github": "https://github.com/Varma799/etl-validation-with-python-scripting",
       "demo": "https://github.com/Varma799/etl-validation-with-python-scripting",
       "links": {
@@ -27,12 +27,14 @@
       }
     },
     {
-      "title": "local-data-lakehouse",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Software Development",
+      "title": "Local Data Lakehouse",
+      "description": "A self-contained local lakehouse stack (Docker) for experimenting with Delta table formats and Spark transformations.",
+      "longDescription": "A self-contained local lakehouse stack (Docker) for experimenting with Delta table formats and Spark transformations.",
+      "category": "Data Engineering",
       "technologies": [
-        "Dockerfile"
+        "Docker",
+        "Spark",
+        "Delta Lake"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#4ECDC4",
@@ -51,13 +53,14 @@
       }
     },
     {
-      "title": "uber-data-engineering-mage-project",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
-      "category": "Backend Development",
+      "title": "Uber Data Engineering (Mage)",
+      "description": "End-to-end Uber trip-data pipeline orchestrated with Mage, modeling raw trips into an analytics-ready warehouse.",
+      "longDescription": "End-to-end Uber trip-data pipeline orchestrated with Mage, modeling raw trips into an analytics-ready warehouse.",
+      "category": "Data Engineering",
       "technologies": [
-        "Jupyter Notebook",
-        "Python"
+        "Python",
+        "Mage",
+        "BigQuery"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FFE66D",
@@ -76,14 +79,14 @@
       }
     },
     {
-      "title": "weather-data-pipeline-great-expectations",
-      "description": "Learning project built with modern web technologies",
-      "longDescription": "Learning project built with modern web technologies",
-      "category": "Backend Development",
+      "title": "Weather Data Pipeline (Great Expectations)",
+      "description": "Weather ingestion pipeline with Great Expectations data-quality validation, containerized with Docker.",
+      "longDescription": "Weather ingestion pipeline with Great Expectations data-quality validation, containerized with Docker.",
+      "category": "Data Engineering",
       "technologies": [
-        "HTML",
         "Python",
-        "Dockerfile"
+        "Great Expectations",
+        "Docker"
       ],
       "icon": "fas fa-brain",
       "color": "#A8DADC",
@@ -102,13 +105,14 @@
       }
     },
     {
-      "title": "youtube-trending-etl-aws",
-      "description": "Portfolio project showcasing development capabilities",
-      "longDescription": "Portfolio project showcasing development capabilities",
-      "category": "Backend Development",
+      "title": "YouTube Trending ETL (AWS)",
+      "description": "Serverless ETL for YouTube trending data on AWS (Glue, S3, Athena), provisioned with Terraform.",
+      "longDescription": "Serverless ETL for YouTube trending data on AWS (Glue, S3, Athena), provisioned with Terraform.",
+      "category": "Data Engineering",
       "technologies": [
-        "HCL",
-        "Python"
+        "Python",
+        "AWS",
+        "Terraform"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
@@ -127,20 +131,20 @@
       }
     },
     {
-      "title": "nyc-taxi-data-lake-gcp",
-      "description": "Hands-on learning experience with modern frameworks",
-      "longDescription": "Hands-on learning experience with modern frameworks",
-      "category": "Backend Development",
+      "title": "NYC Taxi Data Lake (GCP)",
+      "description": "NYC taxi data lake on GCP (BigQuery, Cloud Storage) with Terraform IaC and Spark transforms.",
+      "longDescription": "NYC taxi data lake on GCP (BigQuery, Cloud Storage) with Terraform IaC and Spark transforms.",
+      "category": "Data Engineering",
       "technologies": [
-        "HTML",
         "Python",
-        "HCL",
-        "Shell"
+        "GCP",
+        "Terraform",
+        "Spark"
       ],
       "icon": "fas fa-brain",
       "color": "#FF8B94",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
+      "featured": true,
       "github": "https://github.com/Varma799/nyc-taxi-data-lake-gcp",
       "demo": "https://github.com/Varma799/nyc-taxi-data-lake-gcp",
       "links": {
@@ -154,19 +158,21 @@
       }
     },
     {
-      "title": "elt-pipeline-dbt-snowflake-airflow",
-      "description": "Practice repository for exploring advanced features",
-      "longDescription": "Practice repository for exploring advanced features",
-      "category": "Backend Development",
+      "title": "ELT Pipeline: dbt + Snowflake + Airflow",
+      "description": "Modern ELT pipeline with Airflow orchestration, dbt transformations, and a Snowflake warehouse.",
+      "longDescription": "Modern ELT pipeline with Airflow orchestration, dbt transformations, and a Snowflake warehouse.",
+      "category": "Data Engineering",
       "technologies": [
-        "HTML",
         "Python",
-        "Dockerfile"
+        "dbt",
+        "Snowflake",
+        "Airflow",
+        "Docker"
       ],
       "icon": "fas fa-brain",
       "color": "#FF6B6B",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
+      "featured": true,
       "github": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow",
       "demo": "https://github.com/Varma799/elt-pipeline-dbt-snowflake-airflow",
       "links": {
@@ -180,10 +186,10 @@
       }
     },
     {
-      "title": "goodreads_etl_pipeline",
-      "description": "Learning project built with modern web technologies",
-      "longDescription": "Learning project built with modern web technologies",
-      "category": "Backend Development",
+      "title": "Goodreads ETL Pipeline",
+      "description": "Goodreads book-review ETL pipeline that builds an analytics warehouse from raw review data.",
+      "longDescription": "Goodreads book-review ETL pipeline that builds an analytics warehouse from raw review data.",
+      "category": "Data Engineering",
       "technologies": [
         "Python"
       ],
@@ -204,17 +210,20 @@
       }
     },
     {
-      "title": "f1-ai-race-dashboard",
-      "description": "Interactive F1 race analytics dashboard built with Streamlit, FastF1, and Plotly",
-      "longDescription": "Interactive F1 race analytics dashboard built with Streamlit, FastF1, and Plotly",
-      "category": "Backend Development",
+      "title": "F1 AI Race Dashboard",
+      "description": "Interactive F1 race-analytics dashboard built with Streamlit, FastF1, and Plotly.",
+      "longDescription": "Interactive F1 race-analytics dashboard built with Streamlit, FastF1, and Plotly.",
+      "category": "Analytics & Visualization",
       "technologies": [
-        "Python"
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "FastF1"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FFE66D",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
+      "featured": true,
       "github": "https://github.com/Varma799/f1-ai-race-dashboard",
       "demo": "https://github.com/Varma799/f1-ai-race-dashboard",
       "links": {
@@ -228,12 +237,14 @@
       }
     },
     {
-      "title": "cloud-resource-forecasting-mlops",
-      "description": "Cloud resource forecasting and auto scaling recommendation system built with Python, XGBoost, FastAPI, and pytest.",
-      "longDescription": "Cloud resource forecasting and auto scaling recommendation system built with Python, XGBoost, FastAPI, and pytest.",
-      "category": "Backend Development",
+      "title": "Cloud Resource Forecasting (MLOps)",
+      "description": "Cloud resource-forecasting and auto-scaling recommendation service built with XGBoost and FastAPI.",
+      "longDescription": "Cloud resource-forecasting and auto-scaling recommendation service built with XGBoost and FastAPI.",
+      "category": "MLOps",
       "technologies": [
-        "Python"
+        "Python",
+        "XGBoost",
+        "FastAPI"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#A8DADC",
@@ -252,12 +263,14 @@
       }
     },
     {
-      "title": "linkedin-ai-post-generator",
-      "description": "AI LinkedIn Post Generator built with Python, LangChain, Groq LLM, and Streamlit. Generates structured LinkedIn posts using few shot prompting and LLM inference.",
-      "longDescription": "AI LinkedIn Post Generator built with Python, LangChain, Groq LLM, and Streamlit. Generates structured LinkedIn posts using few shot prompting and LLM inference.",
-      "category": "Backend Development",
+      "title": "LinkedIn AI Post Generator",
+      "description": "LLM-powered LinkedIn post generator using LangChain and few-shot prompting, served via Streamlit.",
+      "longDescription": "LLM-powered LinkedIn post generator using LangChain and few-shot prompting, served via Streamlit.",
+      "category": "GenAI / LLM",
       "technologies": [
-        "Python"
+        "Python",
+        "LangChain",
+        "Streamlit"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
@@ -276,17 +289,20 @@
       }
     },
     {
-      "title": "azure-real-time-data-engineering",
-      "description": "Real-time Azure data pipeline using Event Hubs, Databricks, and ADLS",
-      "longDescription": "Real-time Azure data pipeline using Event Hubs, Databricks, and ADLS",
-      "category": "Backend Development",
+      "title": "Azure Real-Time Data Engineering",
+      "description": "Real-time Azure pipeline streaming through Event Hubs into Databricks and ADLS.",
+      "longDescription": "Real-time Azure pipeline streaming through Event Hubs into Databricks and ADLS.",
+      "category": "Data Engineering",
       "technologies": [
-        "Python"
+        "Python",
+        "Azure",
+        "Databricks",
+        "Event Hubs"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF8B94",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
+      "featured": true,
       "github": "https://github.com/Varma799/azure-real-time-data-engineering",
       "demo": "https://github.com/Varma799/azure-real-time-data-engineering",
       "links": {
@@ -300,11 +316,14 @@
       }
     },
     {
-      "title": "realtime-warehousing-with-snowflake",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Development",
-      "technologies": [],
+      "title": "Real-Time Warehousing with Snowflake",
+      "description": "Real-time data warehousing on Snowflake with streaming ingestion (Snowpipe) and continuous transforms.",
+      "longDescription": "Real-time data warehousing on Snowflake with streaming ingestion (Snowpipe) and continuous transforms.",
+      "category": "Data Engineering",
+      "technologies": [
+        "Snowflake",
+        "Python"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#FF6B6B",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
@@ -322,11 +341,15 @@
       }
     },
     {
-      "title": "ecommerce-lakehouse-medallion",
-      "description": "Portfolio project showcasing development capabilities",
-      "longDescription": "Portfolio project showcasing development capabilities",
-      "category": "Development",
-      "technologies": [],
+      "title": "E-Commerce Lakehouse (Medallion)",
+      "description": "E-commerce lakehouse using the medallion (bronze/silver/gold) architecture on Spark and Delta Lake.",
+      "longDescription": "E-commerce lakehouse using the medallion (bronze/silver/gold) architecture on Spark and Delta Lake.",
+      "category": "Data Engineering",
+      "technologies": [
+        "Spark",
+        "Delta Lake",
+        "Python"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#4ECDC4",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
@@ -344,32 +367,10 @@
       }
     },
     {
-      "title": "contribution-history",
-      "description": "Generated GitHub contribution history",
-      "longDescription": "Generated GitHub contribution history",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/Varma799/contribution-history",
-      "demo": "https://github.com/Varma799/contribution-history",
-      "links": {
-        "github": "https://github.com/Varma799/contribution-history",
-        "demo": "https://github.com/Varma799/contribution-history",
-        "live": "https://github.com/Varma799/contribution-history"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "mlproject",
-      "description": "GitHub repository: mlproject",
-      "longDescription": "GitHub repository: mlproject",
-      "category": "Backend Development",
+      "title": "ML Project",
+      "description": "End-to-end ML project with modular training and prediction pipelines, packaged for deployment.",
+      "longDescription": "End-to-end ML project with modular training and prediction pipelines, packaged for deployment.",
+      "category": "MLOps",
       "technologies": [
         "Python"
       ],
@@ -390,11 +391,13 @@
       }
     },
     {
-      "title": "Spotify_project",
-      "description": "GitHub repository: Spotify_project",
-      "longDescription": "GitHub repository: Spotify_project",
-      "category": "Development",
-      "technologies": [],
+      "title": "Spotify Data Pipeline",
+      "description": "Spotify data pipeline extracting track and listening data via the Spotify API into an analytics store.",
+      "longDescription": "Spotify data pipeline extracting track and listening data via the Spotify API into an analytics store.",
+      "category": "Data Engineering",
+      "technologies": [
+        "Python"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
